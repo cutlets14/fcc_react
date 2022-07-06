@@ -29,5 +29,7 @@ Why React?
    2. For example, vanilla JS works in an imperative way. The mock example in `index.js` can quickly become cumbersome if we want to do something more complex.
    3. In a declarative sense, we get to write JS as if it were HTML.
 
-
+JSX = JavaScript XML
+1. A flavor of JS that looks a lot like HTML.
+2. Introducing JSX to React made it so that React is more declarative rather than imperative.
 

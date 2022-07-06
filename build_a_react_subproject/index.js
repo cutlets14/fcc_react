@@ -45,3 +45,20 @@ const newHOne = document.createElement("h1");
 newHOne.textContent = "Some inner text."
 newHOne.className = "header"
 document.getElementById("root").append(newHOne)
+console.log(newHOne) //<h1 class="header">Some inner text.</h1>
+
+// An intro to JSX
+// Recall that JSX is essentially a declarative way of writing JS with HTML embedded inside.
+const element = <h1 className="header">This is JSX</h1>
+console.log(element)
+
+// This looks like a JS object with properties like className etc. set much like they were set above in line 46
+// {
+//     type: "h1",
+//     props: {
+//         className:  'header'
+//         children: 'This is JSX'
+//     },
+//     _owner: null,
+//     _store: {}
+// }
