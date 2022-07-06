@@ -23,5 +23,11 @@ Why React?
 1. React allows us to write composable code. What does "composable" mean?
    1. Composable means to create something larger with smaller pieces.
    2. In the context of React, this means condensing custom HTML into smaller, more-specific React components which can then be used interchangeably.
-2. One can create React components as if they were a combination of JS `functions` and HTML.
+   3. One can create React components as if they were a combination of JS `functions` and HTML.
+2. React is also declarative!
+   1. The opposite of declarative is imperative. For the former, we can tell a program what should be done. For the latter, we need to supply instructions to the program on how things should be done.
+   2. For example, vanilla JS works in an imperative way. The mock example in `index.js` can quickly become cumbersome if we want to do something more complex.
+   3. In a declarative sense, we get to write JS as if it were HTML.
+
+
 

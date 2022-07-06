@@ -39,3 +39,9 @@ ReactDOM.render(
     <ListContent/>
 </div>, 
 root)
+
+// Showcasing the imperative nature of JS
+const newHOne = document.createElement("h1");
+newHOne.textContent = "Some inner text."
+newHOne.className = "header"
+document.getElementById("root").append(newHOne)
