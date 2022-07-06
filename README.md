@@ -19,4 +19,9 @@ What we'll learn?
 
 Project 1 - Build a simple static page in React
 
-Sub-project - Build a React sub-project
+Why React?
+1. React allows us to write composable code. What does "composable" mean?
+   1. Composable means to create something larger with smaller pieces.
+   2. In the context of React, this means condensing custom HTML into smaller, more-specific React components which can then be used interchangeably.
+2. One can create React components as if they were a combination of JS `functions` and HTML.
+
