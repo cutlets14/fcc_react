@@ -21,24 +21,15 @@ function ListContent() {
     )
 }
 
-// The same React component using arrow functions
-// This doesn't work for some reason
-// const ListContent = () => {
-//     <ul>
-//         <li>This is the first item</li>
-//         <li>This is the second item</li>
-//     </ul>
-// }
-
 // What was shown in the screencast: ReactDOM.render(element, container); render a React element into the DOM in the supplied container.
 // First arg is the "what" that needs to be rendered and the second arg is the "where" it needs to be rendered.
 const root = document.getElementById("root");
-ReactDOM.render(
-<div>
-    <MainContent/>
-    <ListContent/>
-</div>, 
-root)
+// ReactDOM.render(
+// <div>
+//     <MainContent/>
+//     <ListContent/>
+// </div>, 
+// root)
 
 // Showcasing the imperative nature of JS
 const newHOne = document.createElement("h1");
@@ -48,17 +39,28 @@ document.getElementById("root").append(newHOne)
 console.log(newHOne) //<h1 class="header">Some inner text.</h1>
 
 // An intro to JSX
-// Recall that JSX is essentially a declarative way of writing JS with HTML embedded inside.
-const element = <h1 className="header">This is JSX</h1>
-console.log(element)
+// Recall that JSX is essentially a declarative way of writing JS with HTML embedded inside.const HOneEl = <h1 className="header">This is JSX</h1>
+// const parent = (
+// <div>
+//     <h1 className="header">This is JSX</h1>
+//     <p>This is a paragraph</p>
+// </div>
+// )
 
-// This looks like a JS object with properties like className etc. set much like they were set above in line 46
-// {
-//     type: "h1",
-//     props: {
-//         className:  'header'
-//         children: 'This is JSX'
-//     },
-//     _owner: null,
-//     _store: {}
-// }
+// console.log(parent) 
+// One gets back an array of children in the "props" key i.e. a child for every element within the parent element (div)
+
+// Example navbar without any styling
+const parentNav = (
+    <nav>
+        <h1>Cutlets</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+console.log(parentNav)
+
+ReactDOM.render(parentNav, root)

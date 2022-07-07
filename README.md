@@ -30,6 +30,7 @@ Why React?
    3. In a declarative sense, we get to write JS as if it were HTML.
 
 JSX = JavaScript XML
-1. A flavor of JS that looks a lot like HTML.
-2. Introducing JSX to React made it so that React is more declarative rather than imperative.
-
+1. A flavor of JS that is neither a string nor HTML. For example, `const element = <h1>Hello, world!</h1>;`
+2. Introducing JSX to React made it so that React is more declarative rather than imperative. Said differently, using JSX with React allows one to describe what the UI should look like.
+3. React doesn't require JSX, but most people find it helpful as a visual aid when working with UI inside the JS code.
+4. Instead of artificially separating *technologies* by putting markup and logic in separate files, React separates *concerns* with loosely coupled units called components that contain both.
