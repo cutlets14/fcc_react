@@ -43,3 +43,8 @@ Custom components
 5. Quick quiz
    1. What is a React component?
       1. A react component is a collection of JSX enclosed as if it were a JS function by returning React elements. This sort of abstraction allows the repeatable usage of the collection in a composable manner.
+
+Organizing React code
+1. There are many ways to re-organize code depending on the project, complexity, conventions etc.
+2. If a component is being moved to its own file, the filename should be the same as the component name. Once the component has been isolated, don't forget to export the component so that it can be called in the composite script. Two ways to export: `export default function Header()` to the method signature or adding `export default Header` at the end of the script.
+3. Components can be imported using `import Header from ./Header`.
