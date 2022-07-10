@@ -48,3 +48,8 @@ Organizing React code
 1. There are many ways to re-organize code depending on the project, complexity, conventions etc.
 2. If a component is being moved to its own file, the filename should be the same as the component name. Once the component has been isolated, don't forget to export the component so that it can be called in the composite script. Two ways to export: `export default function Header()` to the method signature or adding `export default Header` at the end of the script.
 3. Components can be imported using `import Header from ./Header`.
+
+Run React locally with Create React App
+- In order for React apps to be understood by modern browsers, Babel alone isn't enough. In fact, Babel (used for transpiling) is often used in conjunction with Webpack (script bundler) to build websites so that browsers can understand them.
+- Note that Babel and Webpack are not unique to React.
+- To significantly help with the overhead associated with learning about Babel and Webpack, the React team created "Create React App" to simplify the barrier to entry.
