@@ -1,15 +1,15 @@
 // Thought experiment
 const parent = (
     <div>
-        <img src='react_logo.png'></img>
-        <p className="paragraph">This is a sample paragraph with a className of "paragraph"</p>
+        <img src="./react_logo.png" id="react-logo" width="40px"></img>
+        <h1 className="header-one">Fun facts about React</h1>
         <ul className="unordered-list">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100K stars on GitHub</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
-        <p className="paragraph2">This is another sample paragraph with a different className of "paragraph2"</p>
     </div>
 )
 
