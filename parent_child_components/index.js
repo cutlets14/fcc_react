@@ -2,8 +2,13 @@
 const HeaderComponent = () => {
     return (
         <header>
-            <nav>
-                <img src="./react_logo.png" width="40px"></img>
+            <nav className="nav">
+                <img src="./react_logo.png" className="img"></img>
+                <ul className="nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
@@ -32,7 +37,7 @@ const ContentComponent = () => {
         </div>
     )
 }
-const ParentChallenge = () => {
+const Page = () => {
     return (
     <div>
         <HeaderComponent/>
@@ -43,4 +48,4 @@ const ParentChallenge = () => {
 }
 
 const rootEl = document.getElementById("root")
-ReactDOM.render(<ParentChallenge/>, rootEl)
+ReactDOM.render(<Page/>, rootEl)
