@@ -29,17 +29,41 @@
 // }
 
 // Yet another challenge
-const ReasonsForReact = () => {
+// const ReasonsForReact = () => {
+//     return (
+//         <div>
+//             <ul className="unordered-list">
+//                 <li>Learning something new is fun!</li>
+//                 <li>Learning to ensure I know the code I'm reviewing!</li>
+//                 <li>Learning to ensure that I'm still competitive!</li>
+//             </ul>
+//         </div>
+//     )
+// }
+
+// Yet another another challenge
+const AnotherChallenge = () => {
     return (
-        <div>
-            <ul className="unordered-list">
-                <li>Learning something new is fun!</li>
-                <li>Learning to ensure I know the code I'm reviewing!</li>
-                <li>Learning to ensure that I'm still competitive!</li>
-            </ul>
-        </div>
+    <div>
+        <header>
+            <nav>
+                <img src="./react_logo.png" width="40px"></img>
+            </nav>
+        </header>
+        <h1>
+            Reasons I'm excited to learn React are: 
+        </h1>
+        <ul className="unordered-list">
+            <li>Learning something new is fun!</li>
+            <li>Learning to ensure I know the code I'm reviewing!</li>
+            <li>Learning to ensure that I'm still competitive!</li>
+        </ul>
+        <footer>
+            Copyright 2022. Gadamsetty development. All rights reserved.
+        </footer>
+    </div>    
     )
 }
 
 const rootEl = document.getElementById("root")
-ReactDOM.render(<ReasonsForReact/>, rootEl)
+ReactDOM.render(<AnotherChallenge/>, rootEl)

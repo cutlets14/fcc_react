@@ -39,3 +39,4 @@ Custom components
 1. Currently, JSX components are being written and saved in a JS variable before being rendered. This is a good starter approach but minimizes flexibility and composability.
 2. Instead, custom components are the preferred path forward. React uses functions to create UI elements that can be re-used reliably. A function which returns React markdown elements is considered a **component**.
 3. When using this convention, the function name must use PascalCase (instead of camelCase) and the function must wrapped in </> as if it were self-enclosing when called to render the component.
+4. As for the parent element to wrap all the contents in a given component, one can use <div></div> or <></>, the so-called fragment tags.
