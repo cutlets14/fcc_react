@@ -40,3 +40,6 @@ Custom components
 2. Instead, custom components are the preferred path forward. React uses functions to create UI elements that can be re-used reliably. A function which returns React markdown elements is considered a **component**.
 3. When using this convention, the function name must use PascalCase (instead of camelCase) and the function must wrapped in </> as if it were self-enclosing when called to render the component.
 4. As for the parent element to wrap all the contents in a given component, one can use <div></div> or <></>, the so-called fragment tags.
+5. Quick quiz
+   1. What is a React component?
+      1. A react component is a collection of JSX enclosed as if it were a JS function by returning React elements. This sort of abstraction allows the repeatable usage of the collection in a composable manner.
