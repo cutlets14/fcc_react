@@ -34,3 +34,8 @@ JSX = JavaScript XML
 2. Introducing JSX to React made it so that React is more declarative rather than imperative. Said differently, using JSX with React allows one to describe what the UI should look like.
 3. React doesn't require JSX, but most people find it helpful as a visual aid when working with UI inside the JS code.
 4. Instead of artificially separating *technologies* by putting markup and logic in separate files, React separates *concerns* with loosely coupled units called components that contain both.
+
+Custom components
+1. Currently, JSX components are being written and saved in a JS variable before being rendered. This is a good starter approach but minimizes flexibility and composability.
+2. Instead, custom components are the preferred path forward. React uses functions to create UI elements that can be re-used reliably. A function which returns React markdown elements is considered a **component**.
+3. When using this convention, the function name must use PascalCase (instead of camelCase) and the function must wrapped in </> as if it were self-enclosing when called to render the component.
