@@ -4,7 +4,7 @@ import Header from "./Header"
 import Footer from "./Footer"
 import Content from "./Content"
 
-const Page = () => {
+const App = () => {
     return (
     <div>
         <Header/>
@@ -15,4 +15,4 @@ const Page = () => {
 }
 
 const rootEl = document.getElementById("root")
-ReactDOM.render(<Page/>, rootEl)
+ReactDOM.render(<App/>, rootEl)
