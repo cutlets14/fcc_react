@@ -63,3 +63,8 @@ main {
   padding-block: 10px;
   line-height: 19px;
 }
+
+.div--unlist > li::marker {
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
