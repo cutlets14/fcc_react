@@ -3,6 +3,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282D35;
 }
 
 code {
@@ -18,7 +19,7 @@ nav {
   padding: 30px 25px;
 }
 
-nav > img {
+.nav--icon {
   width: 40px;
   margin-right: 7px;
 }
@@ -39,3 +40,26 @@ nav > img {
   font-weight: 600;
 }
 
+main {
+  background-color: #282D35;
+  padding: 55px 27px;
+}
+
+.div--header1 {
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.div--unlist {
+  color: #FFFFFF;
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.div--unlist > li {
+  padding-block: 10px;
+  line-height: 19px;
+}
