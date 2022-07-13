@@ -43,6 +43,10 @@ nav {
 main {
   background-color: #282D35;
   padding: 55px 27px;
+  background-image: url("react_background_logo.svg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  right: 20px;
 }
 
 .div--header1 {
