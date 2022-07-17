@@ -53,3 +53,7 @@ Run React locally with Create React App
 - In order for React apps to be understood by modern browsers, Babel alone isn't enough. In fact, Babel (used for transpiling) is often used in conjunction with Webpack (script bundler) to build websites so that browsers can understand them.
 - Note that Babel and Webpack are not unique to React.
 - To significantly help with the overhead associated with learning about Babel and Webpack, the React team created "Create React App" to simplify the barrier to entry.
+
+Data-driven React
+- Props - important concept in React which allows one to create reusable and composable components.
+- 
