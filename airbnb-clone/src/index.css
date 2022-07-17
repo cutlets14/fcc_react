@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', 'Segoe UI';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,4 +19,25 @@ code {
 
 .nav--logo {
   max-width: 150px;
+}
+
+.div--image {
+  max-width: 400px;
+  align-self: center;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+
+.div--heading {
+  text-align: left;
+  padding-left: 35px;
+  margin-bottom: 16px;
+  font-size: 36px;
+}
+
+.div--paragraph {
+  text-align: left;
+  margin-top: 0px;
+  padding-left: 35px;
+  overflow-wrap: normal;
 }
